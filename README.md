@@ -1,10 +1,4 @@
-[<img src="https://raw.githubusercontent.com/mineiros-io/brand/3bffd30e8bdbbde32c143e2650b2faa55f1df3ea/mineiros-primary-logo.svg" width="400"/>][homepage]
-
-[![Build Status][badge-build]][build-status]
-[![GitHub tag (latest SemVer)][badge-semver]][releases-github]
-[![Terraform Version][badge-terraform]][releases-terraform]
-[![AWS Provider Version][badge-tf-aws]][releases-aws-provider]
-[![Join Slack][badge-slack]][slack]
+Forked from https://github.com/mineiros-io/terraform-aws-s3-bucket. Adding support for Replication.
 
 # terraform-aws-s3-bucket
 
@@ -83,7 +77,7 @@ of the bucket enforcing `bucket-owner-full-control` ACL for objects created by o
   Enforce Encryption via a policy that blocks unencrypted uploads,
   ACL policy grants (aws-provider >= 2.52.0),
   Amazon S3 Analytics (aws-provider >= 2.49.0),
-  Replication Configuration,
+  Replication Configuration -- Added in this fork,
   Website Configuration,
   S3 Object Locking,
   Bucket Notifications,
